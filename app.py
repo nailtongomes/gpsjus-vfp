@@ -241,7 +241,8 @@ def main():
                     "10356 - Assistência Médico-Hospitalar", "10064 - Saúde", "11854 - Saúde Mental", "12501 - Cirurgia",
                     "12502 - Eletiva", "12508 - Internação compulsória", "12483 - Internação/Transferência Hospitalar",
                     "11856 - Hospitais e Outras Units de Saúde", "11883 - Tratamento Médico-Hospitalar",
-                    "12491 - Tratamento médico-hospitalar", "11847 - ASSISTÊNCIA SOCIAL"
+                    "12491 - Tratamento médico-hospitalar", "11847 - ASSISTÊNCIA SOCIAL",
+                    "14759 - Tratamento Domiciliar (Home Care)",
                 ]
                 filtered_df = filtered_df[filtered_df["ASSUNTO"].isin(saude_assuntos)]
 
@@ -381,3 +382,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
